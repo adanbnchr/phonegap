@@ -1,7 +1,8 @@
 # Summary
 
+## Curso PhoneGap
+
 * [Introducción](README.md)
-* ASDF
 
 ## Instalación
 
@@ -11,6 +12,4 @@
 ## Single Page Applications
 
 * [Arquitectura](spa/arquitectura_de_un_spa.md)
-
-## PRUEBA
 
