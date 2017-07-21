@@ -7,6 +7,7 @@
 - **Webapps** 
     
     Sitios web o aplicaciones web que se ejecutan en un navegador
+    
 - **Aplicaciones nativas**
 
     Típicas aplicaciones del teléfono. Se descargan del app store.   
@@ -15,12 +16,17 @@
 
     Una mezcla de las anteriores
 
-### Ventajas webapps
+### Webapps
 
 * Se construyen mediante HTML, CSS y JavaScript
-* Son multiplataforma (PC, Android, iPhone...)
-    * El diseño puede ser específico o responsive mediante el uso de [CSS Media Queries](https://developer.mozilla.org/es/docs/CSS/Media_queries)
-    
+* Se ejecutan a través de un navegador
+* Se diseñan para verse bien en dispositivos móviles:
+    - Diseño específico
+    - Uso de [CSS Media Queries](https://developer.mozilla.org/es/docs/CSS/Media_queries)
+
+### Ventajas de Webapps
+* Más fáciles de generar (HTML, 
+        
 ### Desventajas webapps
 * Más lentas
 * Menos interactivas e intuitivas
