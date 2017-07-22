@@ -1,7 +1,5 @@
 # Introducción a PhoneGap
 
-
-
 ## Tipos de Aplicaciones Móviles
 
 - **Webapps** 
@@ -16,7 +14,7 @@
 
     Una mezcla de las anteriores
 
-### Webapps
+## Webapps
 
 * Se construyen mediante HTML, CSS y JavaScript
 * Se ejecutan a través de un navegador
@@ -24,18 +22,18 @@
     - Diseño específico
     - Uso de [CSS Media Queries](https://developer.mozilla.org/es/docs/CSS/Media_queries)
 
-### Ventajas de Webapps
+## Ventajas de Webapps
 * Más fáciles de generar (HTML, CSS y JavaScript)
 * Una aplicación única para todos los dispositivos
         
-### Desventajas webapps
+## Desventajas webapps
 * Más lentas
 * Menos interactivas e intuitivas
 * Sin icono (a través del navegador)
 * No están en un app store 
 * No pueden ejecutar funcionalidad nativa del teléfono (cámara, agenda contactos...)
 
-### Aplicaciones Nativas
+## Aplicaciones Nativas
 
 * Las aplicaciones habituales que se ejecutan en los teléfonos
 * Se crean usando un lenguaje específico para cada plataforma
@@ -51,15 +49,48 @@
     * Microsoft Store
     
 
+## Ventajas aplicaciones nativas
+* Muy rápidas
+* Muy interactivas e intuitivas
+* Se pueden encontrar en los app store
+* Ejecutan cualquier funcionalidad nativa del teléfono
 
 
-### Aplicaciones Híbridas
-* Son una mezcla de las anteriores
+## Desventajas
+* Un lenguaje de programación por cada plataforma
+    * Más caras
+    * Más dificiles de mantener
 
 
+## Aplicaciones Híbridas
+* Combinación de aplicaciones nativas y webapps
+* Usan HTML, CSS y JavaScript
+* Se ejecutan en un WebView (navegador sin marcos)
+* Se nos proporciona API de acceso a la funcionalidad nativa.
+    * La API es homogenea entre dispositivos
+    * La API puede tener varias capas, una en código nativo
 
 
-#### 
+## Ventajas aplicaciones híbridas
+* Un único desarrollo (multiplataforma)
+    - Más rápido
+    - Menor coste
+* No necesita navegador
+* Accede a funcionalidad nativa del dispositivo
 
 
+## Desventajas aplicaciones híbridas
+* Más lentas que las aplicaciones nativas
+* Menos interactivas que las aplicaciones nativas
+* Más caras que las webapps
+
+
+## React-native
+- Nueva generación de desarrollos para móviles
+- Mediante HTML, CSS y JavaScript
+- Compila a código nativo
+- Todavía con pocos plugins disponibles
+- Existen otras tecnologías (peores)
+    - Xamarin: C# a código nativo
+    - Titanium: HTML, CSS y JavaScript a código nativo
 
