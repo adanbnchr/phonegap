@@ -25,7 +25,8 @@
     - Uso de [CSS Media Queries](https://developer.mozilla.org/es/docs/CSS/Media_queries)
 
 ### Ventajas de Webapps
-* Más fáciles de generar (HTML, 
+* Más fáciles de generar (HTML, CSS y JavaScript)
+* Una aplicación única para todos los dispositivos
         
 ### Desventajas webapps
 * Más lentas
@@ -37,11 +38,19 @@
 ### Aplicaciones Nativas
 
 * Las aplicaciones habituales que se ejecutan en los teléfonos
+* Se crean usando un lenguaje específico para cada plataforma
+    * .net (Windows Phone)
+    * java (Android)
+    * swift (Apple)
+    
+* Pueden tener requerimientos para su compilación
 
 * Se suelen descargar del store correspondiente
     * Play Store
     * App Store
     * Microsoft Store
+    
+
 
 
 ### Aplicaciones Híbridas
