@@ -2,7 +2,8 @@
 
 ## Curso PhoneGap
 
-* [Introducción](README.md)
+* [Tipos de aplicaciones móviles](README.md)
+* [Introducción a PhoneGap](introduccion-a-phonegap.md)
 
 ## Instalación
 
