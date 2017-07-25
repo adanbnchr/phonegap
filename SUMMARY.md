@@ -3,6 +3,7 @@
 ## Curso PhoneGap
 
 * [Tipos de aplicaciones móviles](README.md)
+* [Arquitectura](spa/arquitectura_de_un_spa.md)
 * [Introducción a PhoneGap](introduccion-a-phonegap.md)
 
 ## Instalación
@@ -13,7 +14,5 @@
 * [Emulador con Android Studio](instalacion/emulador-con-android-studio.md)
 * [Requisitos](instalacion/requisitos.md)
 
-## Single Page Applications
-
-* [Arquitectura](spa/arquitectura_de_un_spa.md)
+## Mi primera App
 

@@ -9,6 +9,13 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
 
+## Instalación de Graddle
+
+```
+sudo apt-get update
+sudo apt-get install gradle
+```
+
 ### Variables de Shell
 
 * Fichero _$HOME/.zshrc_ para el **shell zsh**:
@@ -24,17 +31,30 @@ sudo apt-get install oracle-java8-installer
   path+=('/home/usuario/.nvm/versions/node/v5.0.0/bin/')
   ```
 
+##  Añadir plataforma
+
+- Después de la @ (opcional) va la versión. Con la 6.1.2 (por defecto) da un error.
+```
+phonegap platform add android@latest # 6.3.1 with default... error!
+```
+
 ### Test de funcionamiento
+- Necesitamos un AVD (Android Virtual Device) disponible con [API no superior a 25](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support)
 
-* Cierra y vuelve a abrir el shell
-* Ejecuta un comando como _android avd_
+- Para añadir el dispositivo se puede hacer desde Android Studio - Tools
 
-## 
+- Posteriormente ejecutamos nuestro proyecto.
+  ```
+  phonegap run android
+  ```
+  
+
+## Compilación
+
+- Generar el apk por nuestra cuenta
 ```
-phonegap platform add android
-phonegap run android
+phongap build android
 ```
 
-
-
+- Mediante la nube de Adobe
 
