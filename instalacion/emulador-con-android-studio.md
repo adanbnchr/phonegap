@@ -3,6 +3,7 @@
 * Seguimos las [instrucciones de instalación](https://developer.android.com/studio/install.html) seleccionando nuestro sistema operativo.
 
 ## Instalación de Java
+
 ```
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
@@ -31,54 +32,68 @@ sudo apt-get install gradle
   path+=('/home/usuario/.nvm/versions/node/v5.0.0/bin/')
   ```
 
-##  Añadir plataforma
+## Añadir plataforma
 
-- Después de la @ (opcional) va la versión. Con la 6.1.2 (por defecto) da un error.
-```
-phonegap platform add android@latest # 6.3.1 with default... error!
-```
+* Después de la @ \(opcional\) va la versión. Con la 6.1.2 \(por defecto\) da un error.
+  ```
+  phonegap platform add android@latest # 6.3.1 with default... error!
+  ```
 
 ### Test de funcionamiento
-- Necesitamos un AVD (Android Virtual Device) disponible con [API no superior a 25](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support)
 
-- Para añadir el dispositivo se puede hacer desde Android Studio - Tools
+* Necesitamos un AVD \(Android Virtual Device\) disponible con [API no superior a 25](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support)
 
-- Posteriormente ejecutamos nuestro proyecto.
+* Para añadir el dispositivo se puede hacer desde Android Studio - Tools
+
+* Posteriormente ejecutamos nuestro proyecto.
+
   ```
   phonegap run android
   ```
-  
 
 ## Escenarios de compilación
 
-- Ver [que niveles soporta nuestra aplicación](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)
+* Ver [que niveles soporta nuestra aplicación](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)
 
-- [Dipositivos soportados](https://developer.android.com/about/dashboards/index.html)
+* [Dipositivos soportados](https://developer.android.com/about/dashboards/index.html)
 
-- Compilación en local
-  - Necesitamos los sdk
+* Compilación en local
 
-- Compilación en la nube de Adobe
+  * Necesitamos los sdk
 
+* Compilación en la nube de Adobe
+
+## Targets para compilación
+- IOS requiere una firma y pagar la licencia de desarrollo
+- Windows Phone está poco extendido
+- Android permite instalar los apk, sin necesidad de pasar por el Play Store
+- Utilizaremos Android
 
 ## Compilación en local
 
-- Generar el apk por nuestra cuenta
-```
-phongap build android
-```
-
+* Generar el apk por nuestra cuenta
+  ```
+  phongap build android
+  ```
 
 ## Compilación en la nube de Adobe
 
-- Nos ahorramos mantener varios SDK
-- [Planes de PhoneGap](https://build.phonegap.com/plans)
-  - Una aplicación privada gratuita
-  - Infinitas aplicaciones libres
-  - [Hay restricciones en el tamaño de nuestras aplicaciones](https://build.phonegap.com/plans)
+* Nos ahorramos mantener varios SDK
+* [Planes de PhoneGap](https://build.phonegap.com/plans)
+  * Una aplicación privada gratuita
+  * Infinitas aplicaciones libres
+  * [Hay restricciones en el tamaño de nuestras aplicaciones](https://build.phonegap.com/plans)
+* [Haz login](https://build.phonegap.com/people/sign_in)
 
 ## ¿Qué ficheros subo?
-- Se sigue la especificación de la [W3C Widget Packaging](https://www.w3.org/TR/widgets/)
-- Habrá que comprimir (.zip) el fichero config.xml y la carpeta www.
-- Si tenemos ficheros específicos de una plataforma, también el directorio merge:
+
+* Se sigue la especificación de la [W3C Widget Packaging](https://www.w3.org/TR/widgets/)
+* Habrá que comprimir \(.zip\) el fichero config.xml y la carpeta www.
+* Si tenemos ficheros específicos de una plataforma, también el directorio merge:
+
+  ![](/cli_project.png)
+
+## Instalación en el teléfono
+
+- Mediante alguna aplicación de tipo [AirDroid](https://play.google.com/store/apps/details?id=com.sand.airdroid) o mediante algún [apk installer](https://play.google.com/store/search?q=apk%20installer&c=apps)
 
