@@ -49,12 +49,36 @@ phonegap platform add android@latest # 6.3.1 with default... error!
   ```
   
 
-## Compilación
+## Escenarios de compilación
+
+- Ver [que niveles soporta nuestra aplicación](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)
+
+- [Dipositivos soportados](https://developer.android.com/about/dashboards/index.html)
+
+- Compilación en local
+  - Necesitamos los sdk
+
+- Compilación en la nube de Adobe
+
+
+## Compilación en local
 
 - Generar el apk por nuestra cuenta
 ```
 phongap build android
 ```
 
-- Mediante la nube de Adobe
+
+## Compilación en la nube de Adobe
+
+- Nos ahorramos mantener varios SDK
+- [Planes de PhoneGap](https://build.phonegap.com/plans)
+  - Una aplicación privada gratuita
+  - Infinitas aplicaciones libres
+  - [Hay restricciones en el tamaño de nuestras aplicaciones](https://build.phonegap.com/plans)
+
+## ¿Qué ficheros subo?
+- Se sigue la especificación de la [W3C Widget Packaging](https://www.w3.org/TR/widgets/)
+- Habrá que comprimir (.zip) el fichero config.xml y la carpeta www.
+- Si tenemos ficheros específicos de una plataforma, también el directorio merge:
 
