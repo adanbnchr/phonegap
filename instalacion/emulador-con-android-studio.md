@@ -95,5 +95,16 @@ sudo apt-get install gradle
 
 ## Instalación en el teléfono
 
-- Mediante alguna aplicación de tipo [AirDroid](https://play.google.com/store/apps/details?id=com.sand.airdroid) o mediante algún [apk installer](https://play.google.com/store/search?q=apk%20installer&c=apps)
+- Mediante alguna aplicación de tipo [AirDroid](https://play.google.com/store/apps/details?id=com.sand.airdroid) o mediante algún [apk installer](https://play.google.com/store/search?q=apk%20installer&c=apps) que permiten también compartir la aplicación con amigos.
 
+## Publicar aplicaciones
+
+- Android 
+  - Acceder a [Google Play Console](https://play.google.com/apps/publish/signup/)
+  - Cuota única de 25 USD.
+- IOS 
+  - Desde su [portal de desarrollo](https://developer.apple.com/programs/). 
+  - Cuota de 99 USD cada año.
+- Windows Phone
+  - [Registro en Microsoft Store](https://developer.microsoft.com/en-us/store/register)
+  - Cuota única desde 19 USD
