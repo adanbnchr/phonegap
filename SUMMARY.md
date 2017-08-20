@@ -2,6 +2,8 @@
 
 ## Curso PhoneGap
 
+## Introducción
+
 * [Tipos de aplicaciones móviles](README.md)
 * [Arquitectura](spa/arquitectura_de_un_spa.md)
 * [Introducción a PhoneGap](introduccion-a-phonegap.md)
