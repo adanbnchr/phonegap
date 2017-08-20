@@ -1,0 +1,26 @@
+{
+  "name": "phonegap",
+  "version": "1.0.0",
+  "description": "## Tipos de Aplicaciones Móviles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/phonegap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanda99/phonegap/issues"
+  },
+  "homepage": "https://github.com/juanda99/phonegap#readme",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "reveal-md": "^0.4.0"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
