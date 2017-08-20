@@ -1,6 +1,10 @@
 # Introducción a PhoneGap
 
-## Tipos de Aplicaciones Móviles
+## Tipos de aplicaciones móviles
+
+![](/assets/3apps-highlight.png)
+
+## Descripción de aplicaciones móviles
 
 - **Webapps** 
     
