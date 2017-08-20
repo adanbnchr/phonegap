@@ -161,3 +161,16 @@ http://phonegap.com/
   - Javascript para acceder y controlar el dispositivo
 
 
+## ¿Conviene usar PhoneGap?
+
+- Uso de estándares
+- Parece que hay cierta tendencia a la web, por ej: Firefox OS
+- En aplicaciones multiplataforma:
+  - Un desarrollador o equipo de desarrollo no tiene porque dominar varios lenguajes de programación
+  - Varios equipos de desarrollo no siempre es la mejor opción, por las necesidades de coordinación inherentes
+  
+## Desventajas
+- El look&feel de la aplicación no será nativo
+- No presenta las últimas novedades
+- El código debe estar optimizado para móviles: arquitectura SPA para evitar la latencia de las redes móviles
+
