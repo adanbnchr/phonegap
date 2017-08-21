@@ -11,3 +11,6 @@
     - Elegimos 64 bits (depende de nuestra arquitectura)
 - Dentro de Android Studio podemos acceder al Android Virtual Device Manager
     - Definimos nuestro dispositivo para pruebas
+    
+    ¡¡¡¡Aquí no aparecen las rutas de instalación de tools ni nada!!!
+    

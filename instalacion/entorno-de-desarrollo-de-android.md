@@ -7,7 +7,7 @@
     - Android Studio
     - Android SDK
     - Android Virtual Device
-- Como requisito previo necesitamos tener instalado Java (JDK)
+- Android Studio necesita JDK, pero desde la versión 2.2 viene ya el último openJDK embebido.
 
 ## Configuración
 - Al arrancar Android Studio debemos ir a Configure->SDK Manager
