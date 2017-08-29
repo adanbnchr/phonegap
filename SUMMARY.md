@@ -11,6 +11,7 @@
 
 * [Entorno de desarrollo de Android](instalacion/entorno-de-desarrollo-de-android.md)
 * [Entorno de desarrollo para IOS](instalacion/entorno-de-desarrollo-para-ios.md)
+* [Instalación de node.js](instalacion/instalacion-de-nodejs.md)
 * [Editor de código](instalacion/editor-de-codigo.md)
 * [Phonegap](instalacion/phonegap.md)
 * [Emulador con Android Studio](instalacion/emulador-con-android-studio.md)
