@@ -58,7 +58,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install build-essential
 ```
 
-* En Windows [descargando el paquete msi](https://github.com/coreybutler/nvm-windows)
+* En Windows [descargando el paquete msi](https://nodejs.org/es/)
 
 * Comprobamos que esté instalado:
 
