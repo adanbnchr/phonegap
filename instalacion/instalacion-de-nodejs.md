@@ -61,6 +61,8 @@ sudo apt-get install build-essential
 * En Windows [descargando el paquete msi](https://nodejs.org/es/)
 
 * Comprobamos que esté instalado:
+  * Desde Windows tendremos que sacar la consola mediante el comando cmd
+  * Posteriormente en Windows utilizaremos la propia consola del editor de código
 
 ```
 npm -v
