@@ -15,7 +15,7 @@
 * [Editor de código](instalacion/editor-de-codigo.md)
 * [Phonegap](instalacion/phonegap.md)
 * [Emulador con Android Studio](instalacion/emulador-con-android-studio.md)
-* [Requisitos](instalacion/requisitos.md)
+* [Instalación de MongoDB](instalacion-de-mongodb.md)
 
 ## Mi primera App
 
