@@ -20,7 +20,7 @@
 
 
 ## html
-* El código seleccionado se formatea mediante CTRL+ K y CTRL + F
+* El código **seleccionado** se formatea mediante CTRL+ K y CTRL + F
 * Cambiar la configuración por defecto
     * Mediante los settings (específicos por lenguaje)
     * User Settings para nuestras modificaciones
