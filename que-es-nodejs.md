@@ -90,5 +90,3 @@ trackUser =  function(userId) {
 - Propongo hacer dos prácticas para coger la dinámica del uso de npm y sus librerías y de trabajar con node: 
   - Crear una librería en node.js
   - Crear una api rest mediante node.js
-
-![](/assets/node.png)
