@@ -4,15 +4,14 @@
 * Utilizaremos [Visual Code Editor](https://code.visualstudio.com/)
 * Es un producto open source de Microsoft realizado mediante node.js (electron)
 * Uso muy similar a Sublime Text (empezando con la paleta de comandos CTRL + ALT + P)
-* Tiene un excepcional debugger para node.js
+* Tiene un debugger para node.js muy bueno.
 
 ## Extensiones
 * Se pueden ver desde el propio software o desde https://marketplace.visualstudio.com
 * Emmet ya viene preinstalado
-* Para hacer un preview en el browser por ejemplo instalaremos **open in browser**
+* Instalaremos por ej. live server
     - Hace falta recargar
-    - Mediante CTRL+K D se realiza un preview en el navegador por defecto
-    - Mediante CTRL+ALT+O se elige
+    - Detecta cambios en vivo    
     - Las instrucciones de uso aparecen en Visual Code Editor una vez instalado el plugin
 * Para autocompletar ficheros utilizaremos **path autocomplete**
     - Mediante CONTROL + ESPACIO podemos lanzarlo
