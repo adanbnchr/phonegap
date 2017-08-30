@@ -4,6 +4,7 @@
 - Es un sistema de control de versiones distribuido
 - El control de versiones más utilizado
 - Lo utiliza PhoneGap/Cordova para la instalación de sus plugins
+- Te recomiendo que leas su [documentación](https://git-scm.com/book/es/v1)
 
 ## Instalación de git en Linux
 
@@ -13,6 +14,14 @@
   sudo apt-get update
   sudo apt-get install git
   ```
+
+
+## Instalación de git en Windows
+
+- [Descargamos el paquete](https://git-scm.com/download/win) y lo instalamos
+
+
+### Configuración de git
 
 * Configuración necesaria para cada commit que haga:
 
@@ -26,8 +35,6 @@
   ```
   git config --global core.editor vi
   ```
-
-### Configuración de git
 
 * Git tiene 3 niveles de configuración, cada nivel sobreescribe el anterior:
 
