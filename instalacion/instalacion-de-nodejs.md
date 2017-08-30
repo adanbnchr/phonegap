@@ -69,6 +69,13 @@ npm -v
 node -v
 ```
 
+## Actualización de npm
+- La versión de npm que viene con el propio node no es la más actual y da problemas con algunos plugins de PhoneGap
+- Se recomienda actualizar mediante el comando:
+  ```
+  npm install -g npm
+  ```
+
 
 
 

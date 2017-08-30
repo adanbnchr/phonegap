@@ -1,3 +1,5 @@
+# Instalacion de PhoneGap
+
 
 
 
@@ -34,9 +36,22 @@
     $ npm install -g cordova
   ```
 
-## PhoneGap Developer
+* Comprobamos que tenemos todos los requisitos para desarrollar
+  ```
+  C:\Users\JuanDaniel\Desktop\project1>cordova requirements android
+  
+  Requirements check results for android:
+  Java JDK: installed 1.8.0
+  Android SDK: installed true
+  Android target: installed android-25
+  Gradle: installed C:\Program Files\Android\Android Studio\gradle\gradle-3.2\bin\gradle
+  ```
+* Si falta el JDK, se puede [descargar de Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-- Aplicación que podemos descargar del App Store o del Play Store.
+
+## PhoneGap Developer App
+
+- Aplicación que podemos [descargar del App Store o del Play Store](http://docs.phonegap.com/getting-started/2-install-mobile-app/).
 - Nos da acceso a un preview de nuestra aplicación:
   - No tenemos necesidad de instalar el SDK
   - Se compila utilizando los servicios de PhoneGap
@@ -61,3 +76,4 @@ phonegap serve
 
 
 
+)

@@ -19,6 +19,7 @@
 ## Instalación de git en Windows
 
 - [Descargamos el paquete](https://git-scm.com/download/win) y lo instalamos
+- En la instalación se configura de modo que se pueda ejecutar vía git-bash y vía la consola normal de Windows.
 
 
 ### Configuración de git
