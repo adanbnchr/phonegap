@@ -27,11 +27,55 @@
     * Necesitamos instalar el [paquete de node.js HTMLHint](https://www.npmjs.com/package/htmlhint)
 * Intellisense:
      - Por defecto nos da sugerencias (ej. teclea < y pulsa CTRL + espacio)
+     - Si no utilizamos angular o ionic por ej, puede ser útil quitarlo del intellisense. Yo particularmente también uso dos espacios para la tabulación en vez de 4:
+
+    ```
+         {
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+    "editor.tabSize": 2
+    }
+    ```
+     
      - Puede ser útil que nos de sugerendias respecto a clases de CSS que queremos utilizar:
          - [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
          - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+             - Instalaremos HTML CSS Support
+             - Comprueba su funcionamiento, mira si al rellenar el atributo class de algún elemento el editor te da sugerencias (pulsando CTRL+espacio)
+                 - Fichero css de prueba, por ejemplo *styles/main.css*:
+                 ```
+                 .rojo {
+                    color: red;
+                }
+                .azul {
+                    color: blue;
+                }
+                .importante {
+                    font-weight: bold;
+                }
+                ```
+                - Fichero html:
+                
+                    ```
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                        <title>Document</title>
+                        <link rel="stylesheet" href="styles/main.css">
+                    </head>
+                    <body>
+                        <p class="">Prueba</p>
+                    </body>
+                    </html>
+                    ```
+                
          
-         
+## Linter para css
+- En principio Visual Code Editor ya lleva un linter por defecto :-)
+
 ## Linter para JavaScript
 - Utilizaremos eslint (el más habitual)
 - Instalaremos la extensión eslint dentro de Visual Code Editor
