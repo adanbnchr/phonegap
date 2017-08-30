@@ -1,4 +1,4 @@
-# Instalación y configuración del software
+e# Instalación y configuración del software
 
 ## Gestor de versiones
 
@@ -70,7 +70,7 @@ node -v
 ```
 
 ## Actualización de npm
-- La versión de npm que viene con el propio node no es la más actual y da problemas con algunos plugins de PhoneGap
+- La versión de npm que viene con el propio node no es la excesivamente actual y da problemas con algunos plugins de PhoneGap
 - Se recomienda actualizar mediante el comando:
   ```
   npm install -g npm
