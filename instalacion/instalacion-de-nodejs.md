@@ -1,4 +1,4 @@
-e# Instalación y configuración del software
+# Instalación y configuración de node.js
 
 ## Gestor de versiones
 

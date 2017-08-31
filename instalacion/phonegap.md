@@ -86,8 +86,12 @@ $ phonegap serve
 $ cordova build android
 ```
 - El apk se genera en la ruta *platforms/android/build/generated/outputs/apk*
+
+## Instalación en el teléfono 
 - La forma más cómoda de instalarlo es usando la aplicación [Airdroid](https://web.airdroid.com/)
 - Otra opción de instalación es utilizar alguna aplicación con el nombre del tipo *apk installer*
+- Para poder instalarla es necesario tener dar acceso desde el menú en *Ajustes/Seguridad/Origenes Desconocidos*
+- Observa que al instalarse pide los permisos correspondientes según el archivo *platforms/android/AndroidManifest.xml*
 
 ## Compilación en la nube de Adobe
 - Subimos un zip con todo nuestro proyecto
