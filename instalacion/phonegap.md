@@ -1,11 +1,6 @@
 # Instalacion de PhoneGap
 
-
-
-
-
-
-## Posibles instalaciones
+## Modos de instalación
 
 * Podemos [instalar la aplicación gráfica](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)
   - Funciona solo en Windows y MacOS
@@ -14,26 +9,27 @@
   * Características adicionales
   * Presupone un conocimiento de la línea de comandos
   * Funciona en Windows, MacOS y Linux
-  * Requisitos previos: instalación de node.js y git
+
 
 ## Instalación de Phonegap Desktop
 * Interfaz gráfica para ejecutar proyectos de Phonegap
 * Mediante la  [descarga del paquete de instalación](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)
 
+
 ## Intalación de la aplicación de línea de comandos
-* Necesitamos instalar nuestro cliente PhoneGap/Cordova
+* Necesitamos [instalar nuestro cliente PhoneGap/Cordova](http://docs.phonegap.com/getting-started/1-install-phonegap/cli/)
 * El cliente está programado en [NodeJS](https://nodejs.org/)
 * Los paquetes de NodeJS se instalan mediante su gestor de paquetes [NPM](https://www.npmjs.com/)
+* Requisitos previos: instalación de node.js y git
 
 
-
-
+## ¿PhoneGap o Cordova?
 
 
 * Podemos instalar dos versiones de comandos:**phonegap** o **cordova**. 
 * ¿Cuál instalamos?
 
-  * Phonegap hace lo mismo que cordova
+  * Phonegap hace lo mismo que Cordova
   * Phongap además accede a servicios y aplicaciones creadas por Adobe
   * Algunos servicios de Adobe son gratuitos
 
