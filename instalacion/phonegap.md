@@ -89,7 +89,7 @@ $ cordova build android
 - La forma más cómoda de instalarlo es usando la aplicación [Airdroid](https://web.airdroid.com/)
 - Otra opción de instalación es utilizar alguna aplicación con el nombre del tipo *apk installer*
 
-## Compilación en la nube de Adobeç
+## Compilación en la nube de Adobe
 - Subimos un zip con todo nuestro proyecto
   - La carpeta platform no, ¡es el favor que nos hacen!
 - Si utilizamos git, podemos hacer un pull request
