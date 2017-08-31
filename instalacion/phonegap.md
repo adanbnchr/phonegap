@@ -3,18 +3,31 @@
 
 
 
-* Necesitamos instalar nuestro cliente PhoneGap/Cordova
-* El cliente está programado en [NodeJS](https://nodejs.org/)
-* Los paquetes de NodeJS se instalan mediante su gestor de paquetes [NPM](https://www.npmjs.com/)
 
-## Instalación de PhoneGap
 
-* Podemos [instalar la aplicación gráfica](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/) en Windows o MacOS
+## Posibles instalaciones
+
+* Podemos [instalar la aplicación gráfica](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)
+  - Funciona solo en Windows y MacOS
+  
 * Podemos usar la linea de comandos:
   * Características adicionales
   * Presupone un conocimiento de la línea de comandos
   * Funciona en Windows, MacOS y Linux
   * Requisitos previos: instalación de node.js y git
+
+## Instalación de Phonegap Desktop
+* Interfaz gráfica para ejecutar proyectos de Phonegap
+* Mediante la  [descarga del paquete de instalación](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)
+
+## Intalación de la aplicación de línea de comandos
+* Necesitamos instalar nuestro cliente PhoneGap/Cordova
+* El cliente está programado en [NodeJS](https://nodejs.org/)
+* Los paquetes de NodeJS se instalan mediante su gestor de paquetes [NPM](https://www.npmjs.com/)
+
+
+
+
 
 
 * Podemos instalar dos versiones de comandos:**phonegap** o **cordova**. 
@@ -68,7 +81,7 @@ $ phonegap serve
 - Comprueba la diferencia entre ambas ejecuciones.
 - En el segundo caso los plugins están "funcionando". Pare el caso del navegador se instala una *browser platform* que simula el comportamiento de los plugins.
   
-## Compilación para Android
+## Requerimientos compilación para Android en Windows
 - Primero comprobamos que tenemos los requerimientos
   ```
   C:\Users\JuanDaniel\Desktop\project1>cordova requirements android
@@ -81,10 +94,39 @@ $ phonegap serve
   ```
 * Si falta el JDK, se puede [descargar de Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-- Luego compilamos
+
+## Requerimientos compilación para Android en Linux
 ```
-$ cordova build android
+$ cordova requirements android
 ```
+- En mi caso he tenido que:
+  - Instalar Java:
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
+  - Instalar Graddle:
+
+    ```
+    sudo apt-get update
+    sudo apt-get install gradle
+    ```
+
+  - Configurar variables de shell (en mi caso con zsh), fichero _$HOME/.zshrc_ para el **shell zsh**:
+
+      ```
+      export ANDROID_HOME='/home/usuario/Android/Sdk'
+      path+=('/home/usuario/Android/Sdk/tools' '/home/usuario/Android/Sdk/platform-tools')
+      ```
+
+## Compilación
+
+- Mediante el comando:
+  
+  ```
+  $ cordova build android
+  ```
 - El apk se genera en la ruta *platforms/android/build/generated/outputs/apk*
 
 ## Instalación en el teléfono 
