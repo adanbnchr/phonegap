@@ -1,12 +1,22 @@
 # Compilación 
 
-## Plataformas
-- En principio nos centraremos en Android debido a que:
-    - No tenemos equipos Mac 
-    - Windows Phone está poco extendido
-    - El proceso de montar un entorno de programación para cualquier dispositivo móvil es costoso
+## Plataformas para compilación
+- IOS:
+    - Requiere una firma y pagar la licencia de desarrollo
+    - Uso de equipos MAC
+- Windows Phone:
+    - Está poco extendido
+    - Requiere equipos Windows
+- Android
+    - Compilación desde Windows, Mac o Linux
+    - Android permite instalar los apk, sin necesidad de pasar por el Play Store
+    - Muy extendido, en especial en España
     
-- La lógica es muy similar en otros entornos    
+## Nuestra elección
+- El proceso de montar un entorno de programación para cualquier dispositivo móvil es costoso
+- La lógica es muy similar en otros entornos
+
+- Utilizaremos Android por ser el más versátil
     
 
 ## Requerimientos compilación para Android en Windows

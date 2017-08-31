@@ -22,6 +22,6 @@
 
 * [Aplicación de prueba](aplicacion-de-prueba.md)
 * [Compilación](compilacion.md)
-* Ejecución en emulador
+* [Ejecución en emulador](ejecucion-en-emulador.md)
 * [Publicación](publicacion.md)
 
