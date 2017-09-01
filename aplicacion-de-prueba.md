@@ -1,7 +1,7 @@
-# Aplicación de prueba
+# Hello World
 
 
-## Hello World de phonegap
+## Hello World mediante template
 
 - Creamos una aplicación de ejemplo:
     - Por defecto usa el template de helloWorld
