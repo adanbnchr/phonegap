@@ -15,7 +15,6 @@
 ## Nuestra elección
 - El proceso de montar un entorno de programación para cualquier dispositivo móvil es costoso
 - La lógica es muy similar en otros entornos
-
 - Utilizaremos Android por ser el más versátil
     
 
@@ -95,10 +94,9 @@ $ phonegap build android
 
 
 Opciones de compilación:
-- Enable debuggin
+- Enable debugging
+    - Desde el navegador se puede debuggear el código que se está ejecutando en el dispositivo movil
 
-- Enable hiratation
+- Enable hidratation
+    - Nuestra aplicación corre en un contenedor que se engarga de verificar si hay actualizaciones (sin usar app store o similar).
 
-
-## Prueba en un emulador
--
