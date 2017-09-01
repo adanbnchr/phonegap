@@ -1,5 +1,17 @@
 # Compilación 
 
+## Escenarios de compilación
+
+* Ver [que niveles soporta nuestra aplicación](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html)
+
+* [Dipositivos soportados](https://developer.android.com/about/dashboards/index.html)
+
+* Compilación en local
+
+* Necesitamos los sdk
+
+* Compilación en la nube de Adobe
+
 ## Plataformas para compilación
 - IOS:
     - Requiere una firma y pagar la licencia de desarrollo
