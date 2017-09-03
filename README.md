@@ -4,7 +4,7 @@
 
 ## Tipos de aplicaciones móviles
 
-![](/assets/3apps-highlight.png)
+![](./assets/3apps-highlight.png)
 
 
 ## Descripción de aplicaciones móviles
