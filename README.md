@@ -1,8 +1,11 @@
 # Introducción a PhoneGap
 
+
+
 ## Tipos de aplicaciones móviles
 
 ![](/assets/3apps-highlight.png)
+
 
 ## Descripción de aplicaciones móviles
 
@@ -18,6 +21,7 @@
 
     Una mezcla de las anteriores
 
+
 ## Webapps
 
 * Se construyen mediante HTML, CSS y JavaScript
@@ -26,16 +30,19 @@
     - Diseño específico
     - Uso de [CSS Media Queries](https://developer.mozilla.org/es/docs/CSS/Media_queries)
 
+
 ## Ventajas de Webapps
 * Más fáciles de generar (HTML, CSS y JavaScript)
 * Una aplicación única para todos los dispositivos
-        
+
+     
 ## Desventajas webapps
 * Más lentas
 * Menos interactivas e intuitivas
 * Sin icono (a través del navegador)
 * No están en un app store 
 * No pueden ejecutar funcionalidad nativa del teléfono (cámara, agenda contactos...)
+
 
 ## Aplicaciones Nativas
 
@@ -51,7 +58,7 @@
     * Play Store
     * App Store
     * Microsoft Store
-    
+
 
 ## Ventajas aplicaciones nativas
 * Muy rápidas
