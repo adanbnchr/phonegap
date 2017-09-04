@@ -73,7 +73,7 @@ trackUser =  function(userId) {
   - Se pude añadir el flag --harmony
   - Se puede utilizar un transpiler, que genere código compatible. El más habitual es [babel](https://babeljs.io/)
 - En el navegador tenemos el mismo problema (mismo motor...): es práctica extendida el uso de transpilers.
-  
+
 
 ## Hola Mundo en node
 - Editamos un fichero en JavaScript, *holaMundo.js*:
