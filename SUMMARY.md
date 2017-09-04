@@ -1,5 +1,7 @@
 # Curso PhoneGap
 
+
+
 ## Introducción
 
 * [Tipos de aplicaciones móviles](README.md)
