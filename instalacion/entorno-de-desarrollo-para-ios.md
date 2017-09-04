@@ -1,9 +1,12 @@
 # Entorno de desarrollo para IOS
 
+
+
 ## Xcode
 
 - Se instala Xcode por el simulador
 - En principio no se va a utilizar (salvo el simulador que se ha instalado)
+
 
 ## Configuración
 - Al arrancar Android Studio debemos ir a Configure->SDK Manager
