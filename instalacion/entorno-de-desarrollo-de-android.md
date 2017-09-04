@@ -1,5 +1,7 @@
 # Entorno de desarrollo para Android
 
+
+
 ## Android Studio
 
 - Necesitamos [descargar Android Studio](https://developer.android.com/studio/index.html)
@@ -8,8 +10,11 @@
     - Android SDK
     - Android Virtual Device
 - Android Studio necesita JDK, pero desde la versión 2.2 viene ya el último openJDK embebido.
+
+
 - Dependiendo de la plataforma podemos necesitar alguna configuración adicional relativa a los PATH principalmente.j
 - Las instrucciones precisas están en la [página de descarga de Android Studio](https://developer.android.com/studio/install.html)
+
 
 ## Configuración
 - Al arrancar Android Studio debemos ir a Configure->SDK Manager
