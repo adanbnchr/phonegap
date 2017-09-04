@@ -7,7 +7,7 @@
 - El control de versiones más utilizado
 - Lo utiliza PhoneGap/Cordova para la instalación de sus plugins
 - Te recomiendo que leas su [documentación](https://git-scm.com/book/es/v1)
-ç
+
 
 ## Instalación de git en Linux
 
