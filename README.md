@@ -35,6 +35,7 @@
 * Más fáciles de generar (HTML, CSS y JavaScript)
 * Una aplicación única para todos los dispositivos
 
+
      
 ## Desventajas webapps
 * Más lentas
