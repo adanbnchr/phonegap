@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "slides": "reveal-md SUMMARY.md --separator '^\n\n\n' --verticalSeparator '^\n\n'",
+    "slides": "reveal-md SUMMARY.md --separator '^\n\n\n' --verticalSeparator 'xxx'",
     "pdf": "gitbook pdf ./ ./curso-nodejs-mongodb.pdf",
     "epub": "gitbook epub ./ ./curso-nodejs-mongodb.epub",
     "mobi": "gitbook mobi ./ ./curso-nodejs-mongodb.mobi"
