@@ -7,6 +7,8 @@
 * [Introducción a PhoneGap](introduccion-a-phonegap.md)
 * [¿Qué es node.js?](que-es-nodejs.md)
 
+
+
 ## Instalación
 
 * [Entorno de desarrollo de Android](instalacion/entorno-de-desarrollo-de-android.md)
@@ -17,12 +19,16 @@
 * [Phonegap](instalacion/phonegap.md)
 * [Instalación de MongoDB](instalacion-de-mongodb.md)
 
+
+
 ## Mi primera App
 
 * [Aplicación de prueba](aplicacion-de-prueba.md)
 * [Compilación](compilacion.md)
 * [Ejecución en emulador](ejecucion-en-emulador.md)
 * [Publicación](publicacion.md)
+
+
 
 ## Aplicación móvil
 
