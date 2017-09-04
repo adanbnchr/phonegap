@@ -1,10 +1,12 @@
-# Instalación y configuración del editor de código
+# Editor de código
+
 
 ## Instalación
 * Utilizaremos [Visual Code Editor](https://code.visualstudio.com/)
 * Es un producto open source de Microsoft realizado mediante node.js (electron)
 * Uso muy similar a Sublime Text (empezando con la paleta de comandos CTRL + ALT + P)
 * Tiene un debugger para node.js muy bueno.
+
 
 ## Extensiones
 * Se pueden ver desde el propio software o desde https://marketplace.visualstudio.com
