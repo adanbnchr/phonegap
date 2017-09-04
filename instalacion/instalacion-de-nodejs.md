@@ -1,5 +1,7 @@
 # Instalación y configuración de node.js
 
+
+
 ## Gestor de versiones
 
 * Es habitual utilizar varias versiones de node en nuestra máquina de desarrollo o por cada usuario.
@@ -10,10 +12,13 @@
     * Los paquetes globales se instalan para un único usuario y version de node
     * Los paquetes globales sirven para cualquier proyecto
 
+
+
 * Los gestores de versiones más habituales son:
 
   * [nvm](https://github.com/creationix/nvm) para Linux/Mac
   * [nvm-windows](https://github.com/coreybutler/nvm-windows) para Windows
+
 
 ## Instalación de nvm en Linux
 
@@ -47,6 +52,7 @@
     nvm alias default 6
     ```
 
+
 ## Instalación de node
 
 * Si hemos utilizado un gestor de versiones de node, ya habremos instalado node.
@@ -57,6 +63,7 @@ sudo curl -sL https://deb.nodesource.com/setup_6.x | bash -
 sudo apt-get install -y nodejs
 sudo apt-get install build-essential
 ```
+
 
 * En Windows [descargando el paquete msi](https://nodejs.org/es/)
 
