@@ -30,6 +30,7 @@
   - [Descargamos bootstrap](http://getbootstrap.com/docs/3.3/getting-started/#download) en dichas carpetas y el [plugin de jQuery](https://jquery.com/download/)
     - No usamos un CDN ya que queremos que funcione sin Internet
     - Podemos usar un css más "personalizado" usando https://bootswatch.com/
+    - Bootstrap necesita jQuery, ¡ojo con el orden!
  
 - Comprobamos que tengamos "estilo bootstrap" añadiendo algún snippet.
 - Miramos en la consola que no haya ningún error.
