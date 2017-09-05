@@ -33,6 +33,7 @@
 - Comprobamos que tengamos "estilo bootstrap" añadiendo algún snippet.
 - Miramos en la consola que no haya ningún error.
 
+
 ## Plugins
 - Nuestro JavaScript irá en el fichero *js/index.js*
    - Por el momento, responderemos al evento *deviceReady* 
