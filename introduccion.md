@@ -4,8 +4,9 @@
 ## Tecnologías
 - Utilizaremos Twitter Bootstrap
 - Se trata de un sitio web específico para dispositivos móviles
-- Instalaremos un 
-
+- Se trata de una webapp que empaquetaremos con Phonegap
+- Posteriormente podremos añadir funcionalidad nativa:
+  - Añadir los datos del contacto a la agenda
 
 ## Configuración de Visual Studio
 

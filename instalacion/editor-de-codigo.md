@@ -18,6 +18,10 @@
 * Para autocompletar ficheros utilizaremos **path autocomplete**
     - Mediante CONTROL + ESPACIO podemos lanzarlo
     - Prueba con un fichero css (para insertar el fichero utiliza la abreviatura de emmet link)
+    - Habrá que configurar los settings de usario con:
+    ```
+    "path-autocomplete.extensionOnImport": true
+    ```
 
 
 ## html
