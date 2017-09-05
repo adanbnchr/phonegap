@@ -81,7 +81,12 @@
 ## Linter para JavaScript
 - Utilizaremos eslint (el más habitual)
 - Instalaremos la extensión eslint dentro de Visual Code Editor
+- Además de la extensión es necesario instalar un ejecutable en node:
+    ```
+    npm install -g eslint
+    ```
 - Utilizaremos eslint como dependencia de desarrollo dentro de nuestros proyectos
+- Abriremos la paleta de comandos (CTRL + MAYS + P) y elegiremos *Create a .eslintrc.json file*
 
 
 
