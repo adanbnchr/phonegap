@@ -46,5 +46,5 @@
      function onDeviceReady () {
        console.log('Dispositivo listo!!!!')
      }
-
+    ```
 - Necesitamos algún plugin que gestione el evento *deviceReady*
