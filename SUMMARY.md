@@ -1,6 +1,4 @@
-# Curso PhoneGap
-
-
+# Summary
 
 ## Introducción
 
@@ -8,8 +6,6 @@
 * [Arquitectura](spa/arquitectura_de_un_spa.md)
 * [Introducción a PhoneGap](introduccion-a-phonegap.md)
 * [¿Qué es node.js?](que-es-nodejs.md)
-
-
 
 ## Instalación
 
@@ -21,8 +17,6 @@
 * [Phonegap](instalacion/phonegap.md)
 * [Instalación de MongoDB](instalacion-de-mongodb.md)
 
-
-
 ## Mi primera App
 
 * [Aplicación de prueba](aplicacion-de-prueba.md)
@@ -30,9 +24,8 @@
 * [Ejecución en emulador](ejecucion-en-emulador.md)
 * [Publicación](publicacion.md)
 
-
-
 ## Aplicación móvil
 
 * [Introducción](introduccion.md)
+* [Iconos](iconos.md)
 
