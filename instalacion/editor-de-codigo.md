@@ -93,6 +93,15 @@
 - Abriremos la paleta de comandos (CTRL + MAYS + P) y elegiremos *Create a .eslintrc.json file*
 
 
+## Formateador de código
+- Añadimos el plugin [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) para documentos HTML, JS, JSON, CSS o SASS
+
+- Configuramos un atajo de teclado
+    - Accedemos a la paleta de comandos (CTRL + MAY + P)
+    - Filtramos por shortcuts
+    - Seleccionamos *Preferencias: abrir métodos abreviados de teclado*
+    - Filtramos de nuevo, ahora por beautify
+    - Configuramos el atajo mediante CTRL + F
 
 
 
