@@ -81,10 +81,19 @@ cordova serve
 
 - Descargamos la librería de iconos y copiamos las carpetas *css* y *fonts* a nuestro proyecto
 - Añadimos la hoja de estilos a nuestro html:
+
 ```
     <link rel="stylesheet" href="css/font-awesome.min.css">
 ```
 
+
+
+- Aumentamos el tamaño de los iconos definiendo una clase nueva en el index.css:
+```
+.big {
+  font-size: 60px;
+}
+```
 
 ## Funcionalidad nativa
 - Para llamar a la funcionalidad nativa del teléfono lo haremos comunicándonos con la librería *cordova.js*
@@ -138,3 +147,58 @@ function subirVolumen(){
 - Otra opción es utilizar *alert* en vez de *console.log*
   
   
+## Añadir datos a la agenda de contactos
+- En contactar añadiremos además del formulario un botón para guardar el contacto
+- Guardaremos los siguientes datos:
+  - Nombre
+  - Apellido
+  - Teléfonos de contacto (más de uno)
+  - Email
+- Debemos utilizar el plugin de contactos](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-contacts/index.html)
+  - Se instala mediante:
+  ```
+  cordova plugin add cordova-plugin-contacts
+  ```
+  - El código que podríamos añadir:
+
+```
+function onSuccess(contact) {
+    alert("Se ha guardado el contacto");
+};
+
+function onError(contactError) {
+    alert("Error = " + contactError.code);
+};
+    
+function addContact() {
+
+// create a new contact object
+var contact = navigator.contacts.create();
+contact.displayName = "Lionel Messi";
+contact.nickname = "Messi";
+
+// telefonos de contacto
+var phoneNumbers = [];
+phoneNumbers[0] = new ContactField('work', '768-555-1234', false);
+phoneNumbers[1] = new ContactField('mobile', '999-555-5432', true); // preferred number
+phoneNumbers[2] = new ContactField('home', '203-555-7890', false);
+contact.phoneNumbers = phoneNumbers;
+
+// emails
+var emails = [];
+emails[0] = new ContactField('Trabajo', 'asdf@adsf.com', false);
+emails[1] = new ContactField('Personal', 'asdfg@asdf.com', true); // preferred number
+contact.emails = emails;
+
+ 
+// Nombre del contacto
+var name = new ContactName();
+name.givenName = "Lionel";
+name.familyName = "Messi";
+contact.name = name;
+
+// guardamos
+contact.save(onSuccess,onError);
+}
+```
+
