@@ -61,6 +61,31 @@ cordova serve
 - Miramos en la consola que no haya ningún error.
 
 
+## Creación de la web
+- Creamos un navbar responsive con el menú siguiente:
+  - Inicio
+  - Sobre mi
+  - Servicios
+  - Contactar
+
+
+
+## Iconos
+- Utilizaremos los iconos de [font awesome](http://fontawesome.io/icons/)
+  - Más cantidad que los que vienen con Bootstrap
+  - Open Source
+- Otras opciones:
+  - https://material.io/icons/
+  - https://thenounproject.com/
+  - ...
+
+- Descargamos la librería de iconos y copiamos las carpetas *css* y *fonts* a nuestro proyecto
+- Añadimos la hoja de estilos a nuestro html:
+```
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+```
+
+
 ## Funcionalidad nativa
 - Para llamar a la funcionalidad nativa del teléfono lo haremos comunicándonos con la librería *cordova.js*
 - No podremos llamar a la funcionalidad nativa del teléfono hasta que la libería de cordova esté cargada 
@@ -77,6 +102,39 @@ cordova serve
      }
     ```
 
+
+## Ejercicio
 * Ejercicio: Prueba a sacar por consola un mensaje cuando el usuario baje o suba el volumen de su teléfono. 
   * Los eventos son *volumedownbutton* y *volumeupbutton*
+  
+## Solución ejercicio
+
+- El código sería similar al siguiente:
+
+```
+document.addEventListener('volumedownbutton', bajarVolumen, false);
+document.addEventListener('volumeupbutton', subirVolumen, false);
+
+function bajarVolumen() {
+  console.log ('He bajado el volumen');
+}
+
+function subirVolumen(){
+  console.log('He subido el volumen');
+}
+```
+
+- Pero... ¿como lo comprobamos?
+  - Necesitamos hacer debug del código 
+
+
+## Debug
+- *console.log*, *console.error*, *console.warn* nos sirve solo si:
+  - Miramos las trazas de log del emulador o del dispositivo remoto mediante 
+  *adb* (android device bridge)
+  - Conectamos nuestro navegador del PC al webview mediante chrome://inspect (en principio necesitamos conectar el movil mediante USB)
+  - [Instalamos el paquete de node Weinre e inyectamos un código en nuestro index.html](http://docs.phonegap.com/phonegap-build/tools/weinre/)
+  
+- Otra opción es utilizar *alert* en vez de *console.log*
+  
   
