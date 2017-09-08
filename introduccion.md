@@ -66,7 +66,8 @@ cordova serve
 - No podremos llamar a la funcionalidad nativa del teléfono hasta que la libería de cordova esté cargada 
 - La libería de cordova dispara el evento *deviceReady* una vez está cargada
 
-- Configuraremos un aviso en consola de momento para ver cuando se carga:
+- Configuraremos un aviso en consola de momento para ver cuando se carga
+  - Se utiliza la función addEventListener que recibe el nombre del evento y la función que manejará el evento
 - Nuestro JavaScript irá en el fichero *js/index.js*
      ```
      document.addEventListener('deviceReady', onDeviceReady, false);
@@ -75,3 +76,7 @@ cordova serve
        console.log('Dispositivo listo!!!!')
      }
     ```
+
+* Ejercicio: Prueba a sacar por consola un mensaje cuando el usuario baje o suba el volumen de su teléfono. 
+  * Los eventos son *volumedownbutton* y *volumeupbutton*
+  
