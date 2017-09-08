@@ -36,10 +36,6 @@ cordova serve
   - Con Cordova es necesario añadir la plataforma browser (en PhoneGap se hace automático)
   
 
-
-
-
-
 ## Primeros pasos
 - Modificamos el fichero config.mxl (name, description y author)
 - Añadimos las carpetas js, fonts y css
@@ -65,10 +61,13 @@ cordova serve
 - Miramos en la consola que no haya ningún error.
 
 
-## Plugins
+## Funcionalidad nativa
+- Para llamar a la funcionalidad nativa del teléfono lo haremos comunicándonos con la librería *cordova.js*
+- No podremos llamar a la funcionalidad nativa del teléfono hasta que la libería de cordova esté cargada 
+- La libería de cordova dispara el evento *deviceReady* una vez está cargada
+
+- Configuraremos un aviso en consola de momento para ver cuando se carga:
 - Nuestro JavaScript irá en el fichero *js/index.js*
-   - Por el momento, responderemos al evento *deviceReady* 
-   - Simplificaremos el código del template de helloWorld:
      ```
      document.addEventListener('deviceReady', onDeviceReady, false);
      
@@ -76,4 +75,3 @@ cordova serve
        console.log('Dispositivo listo!!!!')
      }
     ```
-- Necesitamos algún plugin que gestione el evento *deviceReady*
