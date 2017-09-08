@@ -25,7 +25,7 @@
 - Levantamos un servidor mediante:
 
 ```
-phonegap serve --localtunnel
+phonegap serve
 ```
 
 - La IP que nos ofrece al levantar el servidor habrá que copiarla en PhoneGap Developer App para comunicar el móvil y el servidor
