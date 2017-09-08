@@ -22,6 +22,7 @@
 * [Aplicación de prueba](aplicacion-de-prueba.md)
 * [Compilación](compilacion.md)
 * [Ejecución en emulador](ejecucion-en-emulador.md)
+* [Ejecución en el teléfono](ejecucion-en-el-telefono.md)
 * [Publicación](publicacion.md)
 
 ## Aplicación móvil

@@ -2,11 +2,11 @@
 
 
 ## Tecnologías
+- Realizaremos una webapp que empaquetaremos con Phonegap
 - Utilizaremos Twitter Bootstrap
-- Se trata de un sitio web específico para dispositivos móviles
-- Se trata de una webapp que empaquetaremos con Phonegap
 - Posteriormente podremos añadir funcionalidad nativa:
   - Añadir los datos del contacto a la agenda
+  - ...
 
 ## Configuración de Visual Studio
 
@@ -18,20 +18,49 @@
 
 
 ## Nuevo proyecto
-- Creamos nuevo proyecto mediante PhoneGap Desktop o mediante el CLI
 - Nos basaremos en un proyecto vacío
-- Consistirá en un portfolio de cada uno, una especie de CV
+- Consistirá en un curriculum/portfolio de una empresa o un individuo
+- Seguiremos las pautas que aquí se detallan personalizándolo para nuestras necesidades.
 - Comprobamos que se lance bien el nuevo proyecto
+- Creamos nuevo proyecto mediante el CLI de Cordova
+```
+cordova create curriculum
+```
+
+- Comprobamos que se lance bien el proyecto
+```
+cordova platform add browser
+cordova serve
+```
+  - Tenemos que estar situados dentro del proyecto
+  - Con Cordova es necesario añadir la plataforma browser (en PhoneGap se hace automático)
+  
+
+
+
 
 
 ## Primeros pasos
 - Modificamos el fichero config.mxl (name, description y author)
 - Añadimos las carpetas js, fonts y css
-  - [Descargamos bootstrap](http://getbootstrap.com/docs/3.3/getting-started/#download) en dichas carpetas y el [plugin de jQuery](https://jquery.com/download/)
+  - [Descargamos bootstrap](http://getbootstrap.com/docs/3.3/getting-started/#download) y lo llevamos a las carpetas correspondientes
+  - Descargamos también el [plugin de jQuery](https://jquery.com/download/)
     - No usamos un CDN ya que queremos que funcione sin Internet
     - Podemos usar un css más "personalizado" usando https://bootswatch.com/
     - Bootstrap necesita jQuery, ¡ojo con el orden!
+    - Y recuerda.... el css en el *head* de la página, los js al final del body.
  
+## Comprobamos que funcione nuestro boilerplate
+- Eliminamos el contenido de ejemplo del *index.html*
+```
+        <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+```
 - Comprobamos que tengamos "estilo bootstrap" añadiendo algún snippet.
 - Miramos en la consola que no haya ningún error.
 

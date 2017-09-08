@@ -52,5 +52,7 @@
 - Nos da acceso a un preview de nuestra aplicación:
   - No tenemos necesidad de instalar el SDK
   - Se compila utilizando los servicios de PhoneGap
-  - El movil tiene que tener acceso al equipo de desarrollo (misma red wifi)
+- La aplicación es bastante exigente en requerimientos:
+  - Puede ser que [no funcione en nuestro dispositivo](https://github.com/phonegap/phonegap-app-developer/issues/408)
+
   
