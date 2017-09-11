@@ -82,6 +82,7 @@
 ## Linter para css
 - En principio Visual Code Editor ya lleva un linter por defecto :-)
 
+
 ## Linter para JavaScript
 - Utilizaremos eslint (el más habitual)
 - Instalaremos la extensión eslint dentro de Visual Code Editor
