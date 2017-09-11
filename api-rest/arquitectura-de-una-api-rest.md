@@ -272,7 +272,7 @@ Accept: application/xml
 
     - **Basada en tokens**, se confía en un token firmado que se envía al servidor en cada petición
 
-![](cookie-token-auth.png)
+![](/assets/cookie-token-auth.png)
 
 
 ### ¿Qué es un token?
