@@ -69,7 +69,7 @@ function onDeviceReady () {
     }
     
     function subirVolumen(){
-    console.log('He subido el volumen');
+        console.log('He subido el volumen');
     }
     ```
 
@@ -101,33 +101,33 @@ cordova plugin add cordova-plugin-contacts
 ```
 document.getElementById('btnContact').addEventListener('onClick', addContact, false);
 function onSuccess(contact) {
-alert("Se ha guardado el contacto");
+    alert("Se ha guardado el contacto");
 };
 function onError(contactError) {
-alert("Error = " + contactError.code);
+    alert("Error = " + contactError.code);
 };
 function addContact() {
-// create a new contact object
-var contact = navigator.contacts.create();
-contact.displayName = "Lionel Messi";
-contact.nickname = "Messi";
-// telefonos de contacto
-var phoneNumbers = [];
-phoneNumbers[0] = new ContactField('work', '768-555-1234', false);
-phoneNumbers[1] = new ContactField('mobile', '999-555-5432', true); // preferred number
-phoneNumbers[2] = new ContactField('home', '203-555-7890', false);
-contact.phoneNumbers = phoneNumbers;
-// emails
-var emails = [];
-emails[0] = new ContactField('Trabajo', 'asdf@adsf.com', false);
-emails[1] = new ContactField('Personal', 'asdfg@asdf.com', true); // preferred number
-contact.emails = emails;
-// Nombre del contacto
-var name = new ContactName();
-name.givenName = "Lionel";
-name.familyName = "Messi";
-contact.name = name;
-// guardamos
-contact.save(onSuccess,onError);
+    // create a new contact object
+    var contact = navigator.contacts.create();
+    contact.displayName = "Lionel Messi";
+    contact.nickname = "Messi";
+    // telefonos de contacto
+    var phoneNumbers = [];
+    phoneNumbers[0] = new ContactField('work', '768-555-1234', false);
+    phoneNumbers[1] = new ContactField('mobile', '999-555-5432', true); // preferred number
+    phoneNumbers[2] = new ContactField('home', '203-555-7890', false);
+    contact.phoneNumbers = phoneNumbers;
+    // emails
+    var emails = [];
+    emails[0] = new ContactField('Trabajo', 'asdf@adsf.com', false);
+    emails[1] = new ContactField('Personal', 'asdfg@asdf.com', true); // preferred number
+    contact.emails = emails;
+    // Nombre del contacto
+    var name = new ContactName();
+    name.givenName = "Lionel";
+    name.familyName = "Messi";
+    contact.name = name;
+    // guardamos
+    contact.save(onSuccess,onError);
 }
 ```
