@@ -65,7 +65,7 @@ function onDeviceReady () {
     document.addEventListener('volumeupbutton', subirVolumen, false);
     
     function bajarVolumen() {
-    console.log ('He bajado el volumen');
+        console.log ('He bajado el volumen');
     }
     
     function subirVolumen(){
@@ -82,7 +82,7 @@ function onDeviceReady () {
 - Miramos las trazas de log del emulador o del dispositivo remoto mediante
 *adb* (android device bridge)
 - Conectamos nuestro navegador del PC al webview mediante chrome://inspect (en principio necesitamos conectar el movil mediante USB)
-- [Instalamos el paquete de node Weinre e inyectamos un código en nuestro index.html](http://docs.phonegap.com/phonegap-build/tools/weinre/)
+- [Instalamos el paquete de node Weinre e inyectamos un código en nuestro index.html](http://docs.phonegap.com/phonegap-build/tools/weinre/#running-a-local-debug-server)
 - Otra opción es utilizar *alert* en vez de *console.log*
 ## Añadir datos a la agenda de contactos
 - En contactar añadiremos además del formulario un botón para guardar el contacto
