@@ -113,9 +113,7 @@
     - Control de versiones
 
 
-
-
-
-
-
-
+## Extensiones para node
+- *ExpressSnippet*: para autocompletado de Express
+- [npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): para autocompletado de los módulos que se instalan vía require.
+- [Search node modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules): para buscar en la carpeta node_modules (a menudo se "elimina" del editor de código).
