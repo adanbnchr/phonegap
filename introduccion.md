@@ -55,5 +55,5 @@ cordova serve
             </div>
         </div>
 ```
-- Comprobamos que tengamos "estilo bootstrap" añadiendo algún snippet.
-- Miramos en la consola que no haya ningún error.
+- Añadimos algún snippet de bootstrap y comprobamos que tengamos "estilo bootstrap" añadiendo algún snippet.
+- Miramos en la consola del navegador que no haya ningún error.
