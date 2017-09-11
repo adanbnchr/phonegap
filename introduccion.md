@@ -20,22 +20,20 @@
 ## Nuevo proyecto
 - Nos basaremos en un proyecto vacío
 - Consistirá en un curriculum/portfolio de una empresa o un individuo
-- Seguiremos las pautas que aquí se detallan personalizándolo para nuestras necesidades.
-- Comprobamos que se lance bien el nuevo proyecto
 - Creamos nuevo proyecto mediante el CLI de Cordova
 ```
 cordova create curriculum
 ```
 
 - Comprobamos que se lance bien el proyecto
+  - Tenemos que estar situados dentro del proyecto
+  - Con Cordova es necesario añadir la plataforma browser (en PhoneGap se hace automático)
 ```
 cordova platform add browser
 cordova serve
 ```
-  - Tenemos que estar situados dentro del proyecto
-  - Con Cordova es necesario añadir la plataforma browser (en PhoneGap se hace automático)
-  
 
+  
 ## Primeros pasos
 - Modificamos el fichero config.mxl (name, description y author)
 - Añadimos las carpetas js, fonts y css
