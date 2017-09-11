@@ -77,6 +77,10 @@
             </div>
         </div>
     </div>
+    
+    <footer>
+        <p class="text-center">Copyright &copy; 2017, Nombre y apellidos</p>
+    </footer>
 ```
 
 
