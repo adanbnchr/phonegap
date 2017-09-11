@@ -47,7 +47,7 @@
 ```
 document.addEventListener('deviceReady', onDeviceReady, false);
 function onDeviceReady () {
-console.log('Dispositivo listo!!!!')
+    console.log('Dispositivo listo!!!!')
 }
 ```
 
