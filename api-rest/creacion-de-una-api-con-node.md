@@ -4,6 +4,7 @@
 
 ## Primeros pasos
 - npm configurado y git configurado
+- Instala todos los plugins de Visual Studio Code para node
 - Crear repositorio en GitHub
 - Clonar repositorio
 - Ejecutar npm init
