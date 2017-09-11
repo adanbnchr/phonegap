@@ -73,7 +73,7 @@ function onDeviceReady () {
     }
     ```
 
-- Pero... ¿como lo comprobamos?
+- Pero... ¿cómo lo comprobamos?
 - Necesitamos hacer debug del código
 
 
