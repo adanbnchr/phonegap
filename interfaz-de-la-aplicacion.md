@@ -35,6 +35,51 @@
 }
 ```
 
+## Código de ejemplo
+
+- Clase text-center para centrar el código
+- Clase lead para un formato de párrafo destacado
+- Case well para recuadrar el texto con un color de fondo
+- Formato a 4 columnas a partir de dispositivos tamaño medio (tablets apaisadas)
+
+```
+
+    <div class="container text-center">
+        <h1>Bienvenido a mi sitio web</h1>
+        <p class="lead">Nombre y apellidos: desarrollador web profesional</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well">
+                    <i class="fa fa-gear big"></i>
+                    <h3>Tenologías punteras</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <i class="fa fa-user big"></i>
+                    <h3>Tu eres lo primero</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <i class="fa fa-dollar big"></i>
+                    <h3>Presupuestos muy ajustados</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+```
+
+
 
 ## Funcionalidad nativa
 - Para llamar a la funcionalidad nativa del teléfono lo haremos comunicándonos con la librería *cordova.js*
@@ -84,6 +129,8 @@ function onDeviceReady () {
 - Conectamos nuestro navegador del PC al webview mediante chrome://inspect (en principio necesitamos conectar el movil mediante USB)
 - [Instalamos el paquete de node Weinre e inyectamos un código en nuestro index.html](http://docs.phonegap.com/phonegap-build/tools/weinre/#running-a-local-debug-server)
 - Otra opción es utilizar *alert* en vez de *console.log*
+
+
 ## Añadir datos a la agenda de contactos
 - En contactar añadiremos además del formulario un botón para guardar el contacto
 - Guardaremos los siguientes datos:
@@ -99,7 +146,7 @@ cordova plugin add cordova-plugin-contacts
 - El código que podríamos añadir:
 
 ```
-document.getElementById('btnContact').addEventListener('onClick', addContact, false);
+document.getElementById('btnContact').addEventListener('click', addContact, false);
 function onSuccess(contact) {
     alert("Se ha guardado el contacto");
 };
