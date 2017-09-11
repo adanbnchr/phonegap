@@ -55,22 +55,23 @@ function onDeviceReady () {
 ## Ejercicio
 * Ejercicio: Prueba a sacar por consola un mensaje cuando el usuario baje o suba el volumen de su teléfono.
 * Los eventos son *volumedownbutton* y *volumeupbutton*
-## Solución ejercicio
 
+
+## Solución ejercicio
 - El código sería similar al siguiente:
 
-```
-document.addEventListener('volumedownbutton', bajarVolumen, false);
-document.addEventListener('volumeupbutton', subirVolumen, false);
-
-function bajarVolumen() {
-console.log ('He bajado el volumen');
-}
-
-function subirVolumen(){
-console.log('He subido el volumen');
-}
-```
+    ```
+    document.addEventListener('volumedownbutton', bajarVolumen, false);
+    document.addEventListener('volumeupbutton', subirVolumen, false);
+    
+    function bajarVolumen() {
+    console.log ('He bajado el volumen');
+    }
+    
+    function subirVolumen(){
+    console.log('He subido el volumen');
+    }
+    ```
 
 - Pero... ¿como lo comprobamos?
 - Necesitamos hacer debug del código
