@@ -105,7 +105,12 @@
     - Configuramos el atajo mediante CTRL + F
 
 
-
+## Extensiones preinstaladas
+- Las extensiones más habituales ya vienen preinstaladas
+    - Debugger
+    - Emmet
+    - Terminal (CTRL + ñ)
+    - Control de versiones
 
 
 

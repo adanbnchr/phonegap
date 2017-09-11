@@ -11,7 +11,7 @@
 
 
 ## Configuración de eslint
-- Si tienes los linters para Sublime y js configurados, comprueba que la consola arroja un error.
+- Necesitamos tener instalado el plugin de eslint para Visual Studio Code
 - Hay que configurar eslint para formatear nuestro código.
 
   ```
@@ -35,6 +35,7 @@ Successfully created .eslintrc.json file in /home/juanda/api_node_express/ejerci
 ```
 
 - Comprueba que el linter de JavaScript te funcione bien
+- También podríamos haber generado la configuración del linter mediante Visual Studio Code
 
 
 ## express
