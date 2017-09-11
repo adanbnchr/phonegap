@@ -31,7 +31,7 @@
 - Aumentamos el tamaño de los iconos definiendo una clase nueva en el index.css:
 ```
 .big {
-font-size: 60px;
+    font-size: 60px;
 }
 ```
 
