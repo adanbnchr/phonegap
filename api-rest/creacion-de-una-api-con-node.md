@@ -313,23 +313,7 @@ router.get('/:nombre', function(req, res) {
     - Nos permite más libertad, al utilizar colecciones en vez de tablas
 
 
-## Instalación de MongoDB
-- Instalamos y leventamos el servicio de MongoDB:
-```
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
-echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-sudo apt-get update
-sudo apt-get install -y mongodb-org
-```
 
-- El servicio se levanta como otros servicios de Linux: 
-```
-sudo service mongod start
-```
-
-- Y para entrar a su consola, mediante **mongo**, o mediante algún gui como por ejemplo [Robomongo](https://robomongo.org/) 
-
-- La consola de Mongo también es un intérprete de JavaScript :-)
 
 
 ## Inserción de datos
