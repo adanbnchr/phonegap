@@ -18,8 +18,10 @@
 - Algunos ejemplos de sitios web que proveen de APIS son:
     - Twitter: acceso a datos de usuarios, estado
     - Google: por ejemplo para consumir un mapa de Google 
-- Pero hay muchos más: Facebook, YouTube, Amazon, foursquare...
-- Pero todavía hay muchos más: [directorio de proveedores de APIs](http://www.programmableweb.com/apis/directory) 
+- Hay muchos más: Facebook, YouTube, Amazon, foursquare...
+- Pero todavía hay muchos más: 
+    - [directorio de proveedores de APIs](http://www.programmableweb.com/apis/directory)
+    - [Repo en GitHub](https://github.com/toddmotto/public-apis)
 
 
 ## Qué significa API REST
@@ -43,25 +45,25 @@ http://www.formandome.es/api/cursos/1
 
 - El método (HTTP Verbs) representa la **operación**:
 
-~~~
-GET http://www.formandome.es/api/cursos/1
-~~~
+    ~~~
+    GET http://www.formandome.es/api/cursos/1
+    ~~~
 
 - El código de estado HTTP representa el **resultado**:
 
-~~~
-200 OK HTTP/1.1
-404 NOT FOUND HTTP/1.1 
-~~~
+    ~~~
+    200 OK HTTP/1.1
+    404 NOT FOUND HTTP/1.1 
+    ~~~
 
 
 ### Creación de recursos
 - La URL estará “abierta” (el recurso todavía no existe y por tanto no tiene id)
 - El método debe ser POST
 
-~~~
-http://eventos.com/api/eventos/3/comentarios
-~~~
+    ~~~
+    http://eventos.com/api/eventos/3/comentarios
+    ~~~
 
 
 ### Respuesta a la creación de recursos
@@ -168,16 +170,17 @@ DELETE mi_url/empleados/1234
 ### Versiones del API
 - Los cambios en el código no deberían afectar al API
 - Si hay cambios en el API se deben usar versiones para no fustrar a los desarrolladores
-- La mejor opción es añadir un prefijo a las URLS:
+    - Se añade un prefijo a las URL's:
 
-~~~
-GET /v1/geocode HTTP/1.1
-Host: api.geocod.io
+    ~~~
+    GET /v1/geocode HTTP/1.1
+    Host: api.geocod.io
+    
+    GET /v2/geocode HTTP/1.1
+    Host: api.geocod.io
+    ~~~
 
-GET /v2/geocode HTTP/1.1
-Host: api.geocod.io
-~~~
-
+    - Mediante cabeceras http
 
 ### HTTP verbs
 - Si realizamos [CRUD](http://es.wikipedia.org/wiki/CRUD), debemos utilizar los HTTP verbs de forma adecuada para cuidar la semántica.
