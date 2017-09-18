@@ -44,3 +44,7 @@
 
 * [Aplicación](futbolistas-app/aplicacion.md)
 
+## Útiles
+
+* [Debug en node](utiles/debug-en-node.md)
+
