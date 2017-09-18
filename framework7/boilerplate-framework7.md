@@ -55,4 +55,5 @@ cordova create phonegap-fw7-2
 - Seguir uno de los dos tutoriales siguientes:
   - [Migración de aplicación IOS a Android](http://framework7.io/tutorials/tips-to-migrate-ios-theme-app-to-material-theme.html)
   - [Mantener IOS y Android en una única aplicación](http://framework7.io/tutorials/maintain-both-ios-and-material-themes-in-single-app.html)
+    - Peor opción porque penaliza la carga (se renderiza de nuevo una vez cargado el JavaScript).
 
