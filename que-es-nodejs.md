@@ -33,7 +33,9 @@
    - Utiliza un solo procesador
    - Si queremos usar toda la potencia de la CPU, tendremos que levantar varias instancias de node y utilizar un balanceador de carga ([por ejemplo con pm2](https://github.com/Unitech/pm2))
 
-{% youtube src="https://www.youtube.com/watch?v=9nPdNyMbpSk" %}{% endyoutube %}
+{% youtube %}
+https://www.youtube.com/watch?v=9nPdNyMbpSk
+{% endyoutube %}
 
 Ver la parte interesante del video: mínuto 14:47
 
@@ -73,6 +75,7 @@ trackUser =  function(userId) {
   - Se pude añadir el flag --harmony
   - Se puede utilizar un transpiler, que genere código compatible. El más habitual es [babel](https://babeljs.io/)
 - En el navegador tenemos el mismo problema (mismo motor...): es práctica extendida el uso de transpilers.
+
 
 
 ## Hola Mundo en node
